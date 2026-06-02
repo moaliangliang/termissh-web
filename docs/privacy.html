@@ -95,7 +95,7 @@
 <div class="header">
     <h1>🔒 TermiSSH 隐私政策</h1>
     <p>Privacy Policy</p>
-    <div class="version">生效日期 / Effective Date: 2026 年 6 月 1 日</div>
+    <div class="version">生效日期 / Effective Date: 2026 年 6 月 2 日</div>
 </div>
 
 <div class="container" id="content">
@@ -103,7 +103,7 @@
     <!-- ========== English ========== -->
     <div class="lang-section" lang="en">
         <h2>Privacy Policy</h2>
-        <p><strong>Last updated:</strong> June 1, 2026</p>
+        <p><strong>Last updated:</strong> June 2, 2026</p>
 
         <h3>1. Introduction</h3>
         <p>TermiSSH (the "App") is an SSH terminal and SFTP file manager developed by Maoliang Liang (the "Developer"). This Privacy Policy explains how the App handles your data. We take your privacy seriously and have designed the App to minimize data collection.</p>
@@ -130,7 +130,7 @@
         </ul>
 
         <h3>4. iCloud Sync</h3>
-        <p>If you enable iCloud sync (which is optional and Pro-only), server metadata (hostname, port, username, labels) will be synced across your devices via Apple's CloudKit. This data is end-to-end encrypted by Apple. Passwords and private keys are <strong>never</strong> synced to iCloud.</p>
+        <p>If you enable iCloud sync (which is optional and Pro-only), server metadata (hostname, port, username, labels) will be synced across your devices via Apple's NSUbiquitousKeyValueStore. This data is encrypted in transit and at rest on Apple's servers. Passwords and private keys are <strong>never</strong> synced to iCloud.</p>
 
         <h3>5. Network Traffic</h3>
         <p>All SSH and SFTP traffic is encrypted end-to-end using the libssh2 library with mbedTLS cryptography. The Developer does not have access to your network traffic. The App does not make any network connections other than the SSH/SFTP connections you explicitly initiate.</p>
@@ -161,7 +161,7 @@
     <!-- ========== 中文 ========== -->
     <div class="lang-section" lang="zh">
         <h2>隐私政策</h2>
-        <p><strong>最后更新：</strong>2026 年 6 月 1 日</p>
+        <p><strong>最后更新：</strong>2026 年 6 月 2 日</p>
 
         <h3>1. 引言</h3>
         <p>TermiSSH（以下简称"本 App"）是一款 SSH 终端和 SFTP 文件管理工具，由毛亮亮（以下简称"开发者"）开发。本隐私政策说明了本 App 如何处理您的数据。我们非常重视您的隐私，并在设计上最大程度减少了数据收集。</p>
@@ -188,7 +188,7 @@
         </ul>
 
         <h3>4. iCloud 同步</h3>
-        <p>如果您启用 iCloud 同步（可选功能，需要 Pro 订阅），服务器元数据（主机名、端口、用户名、标签）将通过 Apple 的 CloudKit 在您的设备间同步。Apple 对此数据进行端到端加密。密码和私钥<strong>不会</strong>同步到 iCloud。</p>
+        <p>如果您启用 iCloud 同步（可选功能，需要 Pro 订阅），服务器元数据（主机名、端口、用户名、标签）将通过 Apple 的 NSUbiquitousKeyValueStore 在您的设备间同步。Apple 对此数据在传输和服务器存储时进行加密。密码和私钥<strong>不会</strong>同步到 iCloud。</p>
 
         <h3>5. 网络通信</h3>
         <p>所有 SSH 和 SFTP 通信均使用 libssh2 库和 mbedTLS 加密协议进行端到端加密。开发者无法访问您的网络流量。本 App 不会发起除您主动建立的 SSH/SFTP 连接之外的任何网络连接。</p>
