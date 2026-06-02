@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TermiSSH — 技术支持</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro SC", "SF Pro Text", "PingFang SC", "Helvetica Neue", sans-serif;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.8;
+        }
+        .header {
+            background: linear-gradient(135deg, #1C1C2E 0%, #2a2a45 100%);
+            color: #fff;
+            padding: 80px 24px 60px;
+            text-align: center;
+        }
+        .header .icon { font-size: 48px; margin-bottom: 16px; }
+        .header h1 { font-size: 36px; font-weight: 700; margin-bottom: 8px; letter-spacing: 0.5px; }
+        .header p { font-size: 17px; color: rgba(255,255,255,0.7); max-width: 500px; margin: 0 auto; }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 24px 60px; }
+        .card {
+            background: #fff;
+            border-radius: 16px;
+            padding: 36px 32px;
+            margin-bottom: 24px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+        .card h2 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #f0f0f0;
+            color: #1C1C2E;
+        }
+        .card h3 {
+            font-size: 17px;
+            font-weight: 600;
+            margin-top: 28px;
+            margin-bottom: 8px;
+            color: #1d1d1f;
+        }
+        .card h3:first-of-type { margin-top: 0; }
+        .card p { margin-bottom: 12px; font-size: 15px; color: #424245; }
+        .card ul { margin: 8px 0 16px 20px; }
+        .card li { font-size: 15px; color: #424245; margin-bottom: 6px; }
+        .card a { color: #4A90FF; text-decoration: none; }
+        .card a:hover { text-decoration: underline; }
+        .card .faq-item {
+            padding: 16px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .card .faq-item:last-child { border-bottom: none; }
+        .card .faq-q {
+            font-weight: 600;
+            font-size: 15px;
+            color: #1d1d1f;
+            margin-bottom: 4px;
+        }
+        .card .faq-a {
+            font-size: 14px;
+            color: #86868b;
+        }
+        .contact-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px 18px;
+            background: #f5f5ff;
+            border-radius: 12px;
+            margin-top: 16px;
+        }
+        .contact-row span { font-size: 18px; }
+        .contact-row a { font-size: 15px; font-weight: 500; }
+        .badge {
+            display: inline-block;
+            background: #e8e8ed;
+            border-radius: 12px;
+            padding: 2px 10px;
+            font-size: 12px;
+            color: #86868b;
+            margin-left: 6px;
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin: 16px 0;
+        }
+        .features-grid .item {
+            background: #f5f5f7;
+            border-radius: 10px;
+            padding: 14px 16px;
+            font-size: 14px;
+            color: #1d1d1f;
+        }
+        .features-grid .item .label { font-weight: 600; }
+        .features-grid .item .desc { font-size: 12px; color: #86868b; margin-top: 2px; }
+        .footer {
+            text-align: center;
+            padding: 32px 24px;
+            color: #86868b;
+            font-size: 13px;
+        }
+        .footer a { color: #4A90FF; text-decoration: none; }
+        .footer a:hover { text-decoration: underline; }
+        @media (max-width: 600px) {
+            .header { padding: 60px 16px 40px; }
+            .header h1 { font-size: 28px; }
+            .container { padding: 24px 16px; }
+            .card { padding: 24px 20px; }
+            .features-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <div class="icon">🖥️</div>
+    <h1>TermiSSH 技术支持</h1>
+    <p>SSH / SFTP 终端客户端 — 帮助与常见问题</p>
+</div>
+
+<div class="container">
+
+    <div class="card">
+        <h2>📋 应用信息</h2>
+        <table style="width:100%; font-size:15px; color:#424245;">
+            <tr><td style="padding:6px 0; color:#86868b; width:100px;">名称</td><td style="padding:6px 0;">TermiSSH</td></tr>
+            <tr><td style="padding:6px 0; color:#86868b;">版本</td><td style="padding:6px 0;">1.0</td></tr>
+            <tr><td style="padding:6px 0; color:#86868b;">平台</td><td style="padding:6px 0;">iOS / iPadOS</td></tr>
+            <tr><td style="padding:6px 0; color:#86868b;">开发者</td><td style="padding:6px 0;">毛亮亮</td></tr>
+            <tr><td style="padding:6px 0; color:#86868b;">价格</td><td style="padding:6px 0;">免费下载，Pro 订阅 ¥98/年</td></tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <h2>✨ 功能介绍</h2>
+        <div class="features-grid">
+            <div class="item">
+                <div class="label">SSH 终端</div>
+                <div class="desc">密码和私钥认证，自动重连</div>
+            </div>
+            <div class="item">
+                <div class="label">SFTP 文件管理</div>
+                <div class="desc">上传、下载、预览、管理远程文件</div>
+            </div>
+            <div class="item">
+                <div class="label">真彩色终端</div>
+                <div class="desc">多主题、字体可调、全屏模式</div>
+            </div>
+            <div class="item">
+                <div class="label">Markdown 渲染</div>
+                <div class="desc">在终端中直接预览 Markdown 文件</div>
+            </div>
+            <div class="item">
+                <div class="label">快捷命令</div>
+                <div class="desc">60+ 内置命令，支持自定义</div>
+            </div>
+            <div class="item">
+                <div class="label">Face ID 锁定</div>
+                <div class="desc">保护您的服务器凭据安全</div>
+            </div>
+            <div class="item">
+                <div class="label">iCloud 同步</div>
+                <div class="desc">多设备同步服务器列表</div>
+            </div>
+            <div class="item">
+                <div class="label">Keychain 存储</div>
+                <div class="desc">密码和私钥硬件加密存储</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>❓ 常见问题</h2>
+
+        <div class="faq-item">
+            <div class="faq-q">如何连接到 SSH 服务器？</div>
+            <div class="faq-a">打开 App 后点击右上角的 "+" 按钮，填写服务器信息（主机地址、端口、用户名、密码或私钥），保存后点击即可连接。</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">如何上传文件到服务器？</div>
+            <div class="faq-a">在 SFTP 文件浏览器中，点击右下角的 "+" 按钮选择"上传"，或直接通过文件分享菜单发送到 TermiSSH。</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">免费版有什么限制？</div>
+            <div class="faq-a">免费版最多保存 3 台服务器和 5 个自定义命令片段。SFTP 功能完全免费开放。Pro 订阅（¥98/年）解锁无限服务器和片段。</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">如何购买 Pro 订阅？</div>
+            <div class="faq-a">在 App 的"设置"页面中点击"TermiSSH Pro"下的"订阅"，按提示完成购买。已购用户可点击"恢复购买"。</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">如何开启 iCloud 同步？</div>
+            <div class="faq-a">在"设置"页面中打开"iCloud 同步"开关。需要 iCloud 已登录且为 Pro 订阅用户。密码和私钥不会被同步。</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">如何开启 Face ID 锁定？</div>
+            <div class="faq-a">在"设置"页面中打开"Face ID 锁定"开关。App 进入后台时将自动锁定，回到前台需要验证。</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">如何导出服务器列表？</div>
+            <div class="faq-a">在服务器列表页面长按任意服务器，选择"导出所有服务器"，或使用底部菜单的"导入/导出"功能导出为 JSON 文件。</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">遇到 Bug 或有问题想反馈？</div>
+            <div class="faq-a">请通过下方联系方式发送邮件，我们会尽快回复。</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>📞 联系我们</h2>
+        <p>如果您有任何问题、建议或反馈，欢迎通过以下方式联系我们：</p>
+        <div class="contact-row">
+            <span>📧</span>
+            <a href="mailto:maoliangliang.work@outlook.com">maoliangliang.work@outlook.com</a>
+        </div>
+        <div style="margin-top:16px;">
+            <a href="privacy.html" style="font-size:14px;">🔒 隐私政策</a>
+        </div>
+    </div>
+
+</div>
+
+<div class="footer">
+    <p>© 2026 Maoliang Liang. All rights reserved.</p>
+    <p><a href="mailto:maoliangliang.work@outlook.com">maoliangliang.work@outlook.com</a></p>
+</div>
+
+</body>
+</html>
